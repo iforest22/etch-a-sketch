@@ -1,6 +1,7 @@
 body {
     background-color: black;
     margin: 2px;
+    display: flex;
 }
 
 .container {
@@ -9,4 +10,12 @@ body {
     background-color: rgb(221, 111, 111);
     display: grid;
     margin: 1px;
+}
+
+.buttonHolder {
+    width: 100%;
+}
+
+button {
+    font-size: 18px;
 }
